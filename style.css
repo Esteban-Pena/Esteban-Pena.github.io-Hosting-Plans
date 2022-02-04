@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.basic{
+    background-color: lightgoldenrodyellow;
+    grid-area: plan1;
+}
+
+.pro{
+    background-color:lightpink;
+    grid-area: plan2;
+}
+
+.ult{
+    background-color: lightskyblue;
+    grid-area: plan3;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    "plan1 plan2 plan3"
+    ;
+}
